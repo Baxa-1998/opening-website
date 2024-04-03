@@ -2,7 +2,7 @@ import React from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import './Ribon.scss'
+import './Ribon.scss';
 
 export default function Ribon() {
   gsap.registerPlugin(ScrollTrigger);
@@ -11,6 +11,7 @@ export default function Ribon() {
       y: -100,
       opacity: 0,
       duration: 1,
+
       scrollTrigger: { trigger: '#cut', toggleActions: 'restart none none none' },
     });
     gsap.to('#elem:nth-child(1)', {
@@ -21,6 +22,7 @@ export default function Ribon() {
       scrollTrigger: {
         trigger: '#elem:nth-child(1)',
         toggleActions: 'restart none none none',
+        start: 'bottom bottom',
       },
     });
     gsap.to('#elem:nth-child(2)', {
@@ -31,6 +33,7 @@ export default function Ribon() {
       scrollTrigger: {
         trigger: '#elem:nth-child(2)',
         toggleActions: 'restart none none none',
+        start: 'bottom bottom',
       },
     });
   }, []);

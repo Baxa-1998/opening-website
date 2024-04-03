@@ -16,13 +16,13 @@ function App() {
       <Header />
       <Main />
       <div className="h-[700px] border">
-        <h2>
+        <h2 className="pb-[500px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequatur corrupti ut.
           Maxime possimus culpa itaque officia fugit cupiditate doloremque consectetur aperiam.
           Culpa adipisci dolor blanditiis temporibus accusamus, consequuntur nostrum.
         </h2>
+        <Ribon />
       </div>
-      <Ribon />
     </div>
   );
 }
