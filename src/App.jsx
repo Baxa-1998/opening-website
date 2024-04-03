@@ -22,7 +22,7 @@ function App() {
           Culpa adipisci dolor blanditiis temporibus accusamus, consequuntur nostrum.
         </h2>
       </div>
-      <Ribon />
+      {/* <Ribon /> */}
     </div>
   );
 }
