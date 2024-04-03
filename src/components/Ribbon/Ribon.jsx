@@ -11,7 +11,7 @@ export default function Ribon() {
       y: -100,
       opacity: 0,
       duration: 1,
-      scrollTrigger: { trigger: '#cut', toggleActions: 'play none none none' },
+      scrollTrigger: { trigger: '#cut', toggleActions: 'restart none none none' },
     });
     gsap.to('#elem:nth-child(1)', {
       x: -250,
@@ -20,7 +20,7 @@ export default function Ribon() {
       borderBottomRightRadius: '25px',
       scrollTrigger: {
         trigger: '#elem:nth-child(1)',
-        toggleActions: 'play none none none',
+        toggleActions: 'restart none none none',
       },
     });
     gsap.to('#elem:nth-child(2)', {
@@ -30,7 +30,7 @@ export default function Ribon() {
       borderBottomLeftRadius: '25px',
       scrollTrigger: {
         trigger: '#elem:nth-child(2)',
-        toggleActions: 'play none none none',
+        toggleActions: 'restart none none none',
       },
     });
   }, []);
