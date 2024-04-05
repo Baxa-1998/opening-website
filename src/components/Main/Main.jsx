@@ -19,20 +19,22 @@ export default function Main() {
         src="./main-background.jpg"
         alt=""
       /> */}
-      <h1 className="text-center text-[35px] mt-[25px]">
+      <h1 className="text-center text-[30px] mt-[25px]">
         Добро Пожаловать! <br />
-        <span className="text-[35px]">{text}</span>
+        <span className="text-[30px]">{text}</span>
         <span style={{ color: '#08d23a' }}>
           <Cursor />
         </span>
       </h1>
+      <h4 className="text-center text-[#0c922d] mt-4 font-bold">05.04.2024</h4>
+
       <div className="pl-[10px] pr-[10px] mt-[15px]">
         <p className="text-center text-[20px]">
           Международная маркетинговая и IT-компания, которая имеет основную цель развитие IT-сферы в
           Узбекистане и создание возможностей для молодежи на мировой арене.
         </p>
       </div>
-      <Ribon />
+      {/* <Ribon /> */}
     </section>
   );
 }

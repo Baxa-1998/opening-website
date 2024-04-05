@@ -3,7 +3,7 @@
   margin: 0;
   text-decoration: none; 
   box-sizing: border-box; 
-
+ 
 }
 
 
@@ -12,8 +12,7 @@ body{
   max-width: 440px;
   background: #000000;
   /* border: 1px solid white; */
- 
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }
 

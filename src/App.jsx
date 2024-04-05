@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Ribon from './components/Ribbon/Ribon';
+import Heroes from './components/Heroes/Heroes';
+import Fireworks from './components/Fireworks/Fireworks';
 
 function App() {
   return (
@@ -15,14 +17,8 @@ function App() {
       />
       <Header />
       <Main />
-      <div className="h-[700px] border">
-        <h2 className="pb-[500px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequatur corrupti ut.
-          Maxime possimus culpa itaque officia fugit cupiditate doloremque consectetur aperiam.
-          Culpa adipisci dolor blanditiis temporibus accusamus, consequuntur nostrum.
-        </h2>
-        <Ribon />
-      </div>
+      {/* <Heroes /> */}
+      <Fireworks />
     </div>
   );
 }
