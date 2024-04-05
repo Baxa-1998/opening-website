@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 import './App.css';
 import Header from './components/Header/Header';
@@ -6,8 +6,16 @@ import Main from './components/Main/Main';
 import Ribon from './components/Ribbon/Ribon';
 import Heroes from './components/Heroes/Heroes';
 import Fireworks from './components/Fireworks/Fireworks';
+import AOS from 'aos';
 
 function App() {
+  React.useEffect(() => {
+    AOS.init();
+  });
+
+  React.useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
       <img
