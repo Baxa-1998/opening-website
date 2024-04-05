@@ -124,7 +124,7 @@ export default function Fireworks() {
     animate();
   }, []);
   return (
-    <div className="relative">
+    <div className="relative h-[1240px] bg-black">
       <Heroes />
       <canvas id="fireworksCanvas"></canvas>
     </div>

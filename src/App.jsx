@@ -19,6 +19,7 @@ function App() {
       <Main />
       {/* <Heroes /> */}
       <Fireworks />
+      <div className="h-[1200px]"></div>
     </div>
   );
 }
