@@ -19,7 +19,7 @@ export default function Main() {
         src="./main-background.jpg"
         alt=""
       /> */}
-      <h1 className="text-center text-[30px] mt-[25px]">
+      <h1 className="text-center text-[32px] mt-[25px] font-semibold">
         Добро Пожаловать! <br />
         <span className="text-[30px]">{text}</span>
         <span style={{ color: '#08d23a' }}>

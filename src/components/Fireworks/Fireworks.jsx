@@ -1,5 +1,6 @@
 import React from 'react';
 import Heroes from '../Heroes/Heroes';
+import './Fireworks.scss';
 
 export default function Fireworks() {
   React.useEffect(() => {
@@ -124,7 +125,7 @@ export default function Fireworks() {
     animate();
   }, []);
   return (
-    <div className="relative h-[1240px] bg-black">
+    <div className="fireworks">
       <Heroes />
       <canvas id="fireworksCanvas"></canvas>
     </div>
