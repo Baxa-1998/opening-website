@@ -9,7 +9,7 @@ export default function Heroes() {
           <img
             className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
             src=""
-            alt="heroes"
+            alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
             Ведущий <br /> Тимур Камолов
@@ -24,7 +24,7 @@ export default function Heroes() {
           <img
             className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
             src=""
-            alt="heroes"
+            alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
             Ведущий <br /> Сати Мирзаянц
@@ -39,7 +39,7 @@ export default function Heroes() {
           <img
             className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
             src=""
-            alt="heroes"
+            alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
             Артист <br /> Азиз Юлдашов
