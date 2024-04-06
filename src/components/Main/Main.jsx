@@ -26,10 +26,10 @@ export default function Main() {
           <Cursor />
         </span>
       </h1>
-      <h4 className="text-center text-[#0c922d] mt-4 font-bold">05.04.2024</h4>
+      <h4 data-aos="fade-up" className="text-center text-[#0c922d] mt-4 font-bold">05.04.2024</h4>
 
       <div className="pl-[10px] pr-[10px] mt-[15px]">
-        <p className="text-center text-[20px]">
+        <p data-aos="fade-up" className="text-center text-[20px]">
           Международная маркетинговая и IT-компания, которая имеет основную цель развитие IT-сферы в
           Узбекистане и создание возможностей для молодежи на мировой арене.
         </p>
