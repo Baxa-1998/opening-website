@@ -7,8 +7,8 @@ export default function Heroes() {
       <div className="flex-col justify-center mt-[50px]">
         <div className="flex flex-col pb-4">
           <img
-            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
-            src=""
+            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%]"
+            src="./timur.png"
             alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
@@ -22,8 +22,8 @@ export default function Heroes() {
         </div>
         <div className="flex flex-col pb-4">
           <img
-            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
-            src=""
+            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%]"
+            src="./sati.png"
             alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
@@ -37,8 +37,8 @@ export default function Heroes() {
         </div>
         <div className="flex flex-col pb-4">
           <img
-            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] bg-white"
-            src=""
+            className="w-[150px] ml-[50%] translate-x-[-50%] h-[150px] rounded-[50%] "
+            src="aziz.png"
             alt=""
           />
           <h3 className="text-center mt-[10px] text-[20px] font-semibold">
