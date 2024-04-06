@@ -127,7 +127,7 @@ export default function Fireworks() {
   return (
     <div className="fireworks">
       <Heroes />
-      <canvas className='h-[1300px]' id="fireworksCanvas"></canvas>
+      <canvas className='h-[1300px] w-[100%]' id="fireworksCanvas"></canvas>
     </div>
   );
 }
